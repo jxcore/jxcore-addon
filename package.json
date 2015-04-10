@@ -1,0 +1,13 @@
+{
+  "name": "jxcore-addon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./test.js",
+  "license": "MIT/X11",
+  "engine": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "install": "node-gyp configure build"
+  }
+}
