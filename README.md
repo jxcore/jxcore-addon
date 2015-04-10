@@ -28,6 +28,7 @@ Check if it works
  $> jx test.js
 ```
 
-You can also try with JXcore SpiderMonkey (details to compile)[https://github.com/jxcore/jxcore/blob/master/doc/HOW_TO_COMPILE.md] 
+You can also try with JXcore SpiderMonkey [details to compile](https://github.com/jxcore/jxcore/blob/master/doc/HOW_TO_COMPILE.md) 
 
-Just call `jx install` again and it will compile the addon for SpiderMonkey. No code change is required.
+Simply compile the addon for each engine by `jx install`. 
+It will compile the addon for SpiderMonkey. No code update is required.
