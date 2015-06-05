@@ -5,7 +5,7 @@ JXcore native addon with multiple JavaScript engine support
 First clone JXcore and this repo from Github and compile.
 ```
  $> git clone https://github.com/jxcore/jxcore
- $> git clone https://github.com/obastemur/jxcore-addon
+ $> git clone https://github.com/jxcore/jxcore-addon
  $> cd jxcore
  $> ./configure 
  $> sudo make install
