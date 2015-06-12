@@ -33,6 +33,10 @@ You can also try with JXcore SpiderMonkey [details to compile](https://github.co
 Simply compile the addon for each engine by `jx install`. 
 It will compile the addon for SpiderMonkey. No code update is required.
 
+#### Looking for a more advanced example ? 
+
+[Leveldown Addon with JXcore Macro](https://github.com/thaliproject/leveldown)
+
 ##### Tip
 
 If you are having a problem, try deleting USER_HOME/.node_gyp/ folder
