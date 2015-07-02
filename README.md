@@ -1,8 +1,9 @@
-## jxcore-addon
+### JXcore Addon Sample
 JXcore native addon with multiple JavaScript engine support
 
-## how-to
-First clone JXcore and this repo from Github and compile.
+### How To Compile
+
+Let's compile JXcore. Get the source codes from Github and compile.
 ```
  $> git clone https://github.com/jxcore/jxcore
  $> git clone https://github.com/jxcore/jxcore-addon
@@ -11,13 +12,30 @@ First clone JXcore and this repo from Github and compile.
  $> sudo make install
 ```
 
-You should have JXcore installed. Check it and force npmjx.
+On Windows;
+```
+ $> git clone https://github.com/jxcore/jxcore
+ $> git clone https://github.com/jxcore/jxcore-addon
+ $> cd jxcore
+ $> vcbuild.bat
+```
+
+Make sure JXcore is accessible from the command line. Try
+```
+jx -jsv
+```
+
+The command above should show you the name of the JavaScript engine powering JXcore. 
+If you are having problem with compiling JXcore, you can also install JXcore from 
+[JXcore.com/downloads](http://jxcore.com/downloads)
+
+If you have JXcore is installed, not it's time to install npm for JXcore.
 
 ```
  $> sudo jx install 
 ```
 
-Clone this repo;
+Lets compile this addon. Get the source codes from Github and compile.
 ```
  $> cd ../jxcore-addon
  $> jx install
@@ -28,15 +46,15 @@ Check if it works
  $> jx test.js
 ```
 
-You can also try with JXcore SpiderMonkey [details to compile](https://github.com/jxcore/jxcore/blob/master/doc/HOW_TO_COMPILE.md) 
+If you are looking for ([details on how to compile JXcore, visit this link.](https://github.com/jxcore/jxcore/blob/master/doc/HOW_TO_COMPILE.md) )
 
-Simply compile the addon for each engine by `jx install`. 
-It will compile the addon for SpiderMonkey. No code update is required.
-
-#### Looking for a more advanced example ? 
+### Looking for an advanced example ? 
 
 [Leveldown Addon with JXcore Macro](https://github.com/thaliproject/leveldown)
 
-##### Tip
+### Tip
 
-If you are having a problem, try deleting USER_HOME/.node_gyp/ folder
+If you are having a problem, try deleting `USER_HOME/.node_gyp/` folder
+
+`jx install` compiles the addon for the engine it has built-in. For example, if you have 
+JXcore with SpiderMonkey is installed, it will compile the addon for SpiderMonkey. 
